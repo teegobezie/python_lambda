@@ -5,7 +5,7 @@ import os
 import datetime
 import math
 
-ec2 = boto3.resouce('ec2')
+ec2 = boto3.resource('ec2')
 s3 = boto3.resource('s3')
 
 for instance in ec2.instances.all():
