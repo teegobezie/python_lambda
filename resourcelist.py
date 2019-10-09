@@ -13,3 +13,7 @@ for instance in ec2.instances.all():
 
 for bucket in s3.buckets.all():
     print('Bucket name: {}' .format(bucket.name))
+    
+    
+# Adding a test line below
+print("Hello there!)
